@@ -3,41 +3,75 @@ public class Autoassociator {
 	private int trainingCapacity;
 	
 	public Autoassociator(CourseArray courses) {
-		// TO DO
-		// creates a new Hopfield network with the same number of neurons 
-		// as the number of courses in the input CourseArray
-	}
+		int numCourses = courses.length(); 
+        weights = new int[numCourses][numCourses];
+        trainingCapacity = 0;
+		}
 	
 	public int getTrainingCapacity() {
-		// TO DO
-		
-		return 0;
+        return trainingCapacity;
 	}
 	
-	public void training(int pattern[]) {
-		// TO DO
-	}
-	
+	public void training(int clashes[]) {
+		int n = clashes.length;
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                if (i != j) {
+                    weights[i][j] -= clashes[i] * clashes[j];
+                }
+            }
+        }
+        trainingCapacity++;
+		}
+        public int predictBestSlot() {
+            int[] clashTotals = new int[weights.length];
+            for (int i = 0; i < weights.length; i++) {
+                for (int j = 0; j < weights[i].length; j++) {
+                    clashTotals[i] += weights[i][j];
+                }
+            }
+    
+            int minIndex = 0;
+            for (int i = 1; i < clashTotals.length; i++) {
+                if (clashTotals[i] > clashTotals[minIndex]) {
+                    minIndex = i;
+                }
+            }
+    
+            return minIndex;
+        }
 	public int unitUpdate(int neurons[]) {
-		// TO DO
-		// implements a single update step and
-		// returns the index of the randomly selected and updated neuron
-		
-		return 0;
+		int index = (int) (Math.random() * neurons.length);
+        unitUpdate(neurons, index);
+        return index;
 	}
 	
 	public void unitUpdate(int neurons[], int index) {
-		// TO DO
-		// implements the update step of a single neuron specified by index
-	}
+		int sum = 0;
+        for (int i = 0; i < neurons.length; i++) {
+            if (i != index) {
+                sum += weights[index][i] * neurons[i];
+            }
+        }
+        neurons[index] = sum > 0 ? 1 : -1;
+		}
 	
 	public void chainUpdate(int neurons[], int steps) {
-		// TO DO
-		// implements the specified number od update steps
-	}
+		for (int i = 0; i < steps; i++) {
+            unitUpdate(neurons);
+        }	}
 	
 	public void fullUpdate(int neurons[]) {
-		// TO DO
-		// updates the input until the final state achieved
-	}
+		boolean changed;
+        do {
+            changed = false;
+            int[] previousState = neurons.clone();
+            for (int i = 0; i < neurons.length; i++) {
+                unitUpdate(neurons, i);
+            }
+            if (!java.util.Arrays.equals(previousState, neurons)) {
+                changed = true;
+            }
+        } while (changed);
+		}
 }

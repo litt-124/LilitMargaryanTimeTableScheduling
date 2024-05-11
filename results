@@ -1,0 +1,7 @@
+For the file ute-s-92, after running the test i got these results:
+INFO: Test with slots = 10, shifts = 4, iterations = 50 resulted in min clashes = 0 at step 27
+May 11, 2024 8:26:48 PM TimeTable runTest
+For the file utecar-f-92, after running the test i got these results:
+May 11, 2024 8:50:25 PM TimeTable actionPerformed
+INFO: Shift = 22, Min clashes = 236, at step 286
+May 11, 2024 8:50:25 PM TimeTable actionPerformed

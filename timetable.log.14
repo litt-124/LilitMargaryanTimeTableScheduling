@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-05-11T17:04:52.612909800Z</date>
+  <millis>1715447092612</millis>
+  <nanos>909800</nanos>
+  <sequence>0</sequence>
+  <logger>TimeTable</logger>
+  <level>INFO</level>
+  <class>TimeTable</class>
+  <method>runTest</method>
+  <thread>20</thread>
+  <message>Test with slots = 28, shifts = 15, iterations = 50 resulted in min clashes = 518 at step 38</message>
+</record>
+<record>
+  <date>2024-05-11T17:04:53.361906Z</date>
+  <millis>1715447093361</millis>
+  <nanos>906000</nanos>
+  <sequence>1</sequence>
+  <logger>TimeTable</logger>
+  <level>INFO</level>
+  <class>TimeTable</class>
+  <method>runTest</method>
+  <thread>20</thread>
+  <message>Test with slots = 28, shifts = 15, iterations = 100 resulted in min clashes = 458 at step 76</message>
+</record>
+<record>
+  <date>2024-05-11T17:04:53.860736500Z</date>
+  <millis>1715447093860</millis>
+  <nanos>736500</nanos>
+  <sequence>2</sequence>
+  <logger>TimeTable</logger>
+  <level>INFO</level>
+  <class>TimeTable</class>
+  <method>runTest</method>
+  <thread>20</thread>
+  <message>Test with slots = 28, shifts = 16, iterations = 50 resulted in min clashes = 464 at step 40</message>
+</record>
+<record>
+  <date>2024-05-11T17:04:54.447167100Z</date>
+  <millis>1715447094447</millis>
+  <nanos>167100</nanos>
+  <sequence>3</sequence>
+  <logger>TimeTable</logger>
+  <level>INFO</level>
+  <class>TimeTable</class>
+  <method>runTest</method>
+  <thread>20</thread>
+  <message>Test with slots = 28, shifts = 16, iterations = 100 resulted in min clashes = 450 at step 61</message>
+</record>
+<record>
+  <date>2024-05-11T17:04:54.922933300Z</date>
+  <millis>1715447094922</millis>
+  <nanos>933300</nanos>
+  <sequence>4</sequence>
+  <logger>TimeTable</logger>
+  <level>INFO</level>
+  <class>TimeTable</class>
+  <method>runTest</method>
+  <thread>20</thread>
+  <message>Test with slots = 28, shifts = 17, iterations = 50 resulted in min clashes = 512 at step 20</message>
+</record>
+<record>
+  <date>2024-05-11T17:04:55.652934500Z</date>
+  <millis>1715447095652</millis>
+  <nanos>934500</nanos>
+  <sequence>5</sequence>
+  <logger>TimeTable</logger>
+  <level>INFO</level>
+  <class>TimeTable</class>
+  <method>runTest</method>
+  <thread>20</thread>
+  <message>Test with slots = 28, shifts = 17, iterations = 100 resulted in min clashes = 484 at step 100</message>
+</record>
+<record>
+  <date>2024-05-11T17:04:56.087324600Z</date>
+  <millis>1715447096087</millis>
+  <nanos>324600</nanos>
+  <sequence>6</sequence>
+  <logger>TimeTable</logger>
+  <level>INFO</level>
+  <class>TimeTable</class>
+  <method>runTest</method>
+  <thread>20</thread>
+  <message>Test with slots = 28, shifts = 18, iterations = 50 resulted in min clashes = 326 at step 32</message>
+</record>
+<record>
+  <date>2024-05-11T17:04:56.693455100Z</date>
+  <millis>1715447096693</millis>
+  <nanos>455100</nanos>
+  <sequence>7</sequence>
+  <logger>TimeTable</logger>
+  <level>INFO</level>
+  <class>TimeTable</class>
+  <method>runTest</method>
+  <thread>20</thread>
+  <message>Test with slots = 28, shifts = 18, iterations = 100 resulted in min clashes = 298 at step 88</message>
+</record>
+<record>
+  <date>2024-05-11T17:04:57.160206500Z</date>
+  <millis>1715447097160</millis>
+  <nanos>206500</nanos>
+  <sequence>8</sequence>
+  <logger>TimeTable</logger>
+  <level>INFO</level>
+  <class>TimeTable</class>
+  <method>runTest</method>
+  <thread>20</thread>
+  <message>Test with slots = 28, shifts = 19, iterations = 50 resulted in min clashes = 468 at step 43</message>
+</record>
+<record>
+  <date>2024-05-11T17:04:57.893247500Z</date>
+  <millis>1715447097893</millis>
+  <nanos>247500</nanos>
+  <sequence>9</sequence>
+  <logger>TimeTable</logger>
+  <level>INFO</level>
+  <class>TimeTable</class>
+  <method>runTest</method>
+  <thread>20</thread>
+  <message>Test with slots = 28, shifts = 19, iterations = 100 resulted in min clashes = 430 at step 99</message>
+</record>
+<record>
+  <date>2024-05-11T17:04:58.289292300Z</date>
+  <millis>1715447098289</millis>
+  <nanos>292300</nanos>
+  <sequence>10</sequence>
+  <logger>TimeTable</logger>
+  <level>INFO</level>
+  <class>TimeTable</class>
+  <method>runTest</method>
+  <thread>20</thread>
+  <message>Test with slots = 28, shifts = 20, iterations = 50 resulted in min clashes = 382 at step 29</message>
+</record>
+<record>
+  <date>2024-05-11T17:04:58.899520200Z</date>
+  <millis>1715447098899</millis>
+  <nanos>520200</nanos>
+  <sequence>11</sequence>
+  <logger>TimeTable</logger>
+  <level>INFO</level>
+  <class>TimeTable</class>
+  <method>runTest</method>
+  <thread>20</thread>
+  <message>Test with slots = 28, shifts = 20, iterations = 100 resulted in min clashes = 382 at step 29</message>
+</record>
+<record>
+  <date>2024-05-11T17:04:59.291513300Z</date>
+  <millis>1715447099291</millis>
+  <nanos>513300</nanos>
+  <sequence>12</sequence>
+  <logger>TimeTable</logger>
+  <level>INFO</level>
+  <class>TimeTable</class>
+  <method>runTest</method>
+  <thread>20</thread>
+  <message>Test with slots = 28, shifts = 21, iterations = 50 resulted in min clashes = 544 at step 42</message>
+</record>
+<record>
+  <date>2024-05-11T17:04:59.856967600Z</date>
+  <millis>1715447099856</millis>
+  <nanos>967600</nanos>
+  <sequence>13</sequence>
+  <logger>TimeTable</logger>
+  <level>INFO</level>
+  <class>TimeTable</class>
+  <method>runTest</method>
+  <thread>20</thread>
+  <message>Test with slots = 28, shifts = 21, iterations = 100 resulted in min clashes = 534 at step 66</message>
+</record>
+<record>
+  <date>2024-05-11T17:05:00.298851700Z</date>
+  <millis>1715447100298</millis>
+  <nanos>851700</nanos>
+  <sequence>14</sequence>
+  <logger>TimeTable</logger>
+  <level>INFO</level>
+  <class>TimeTable</class>
+  <method>runTest</method>
+  <thread>20</thread>
+  <message>Test with slots = 28, shifts = 22, iterations = 50 resulted in min clashes = 262 at step 39</message>
+</record>
+<record>
+  <date>2024-05-11T17:05:00.974606600Z</date>
+  <millis>1715447100974</millis>
+  <nanos>606600</nanos>
+  <sequence>15</sequence>
+  <logger>TimeTable</logger>
+  <level>INFO</level>
+  <class>TimeTable</class>
+  <method>runTest</method>
+  <thread>20</thread>
+  <message>Test with slots = 28, shifts = 22, iterations = 100 resulted in min clashes = 248 at step 84</message>
+</record>
+<record>
+  <date>2024-05-11T17:05:01.461305500Z</date>
+  <millis>1715447101461</millis>
+  <nanos>305500</nanos>
+  <sequence>16</sequence>
+  <logger>TimeTable</logger>
+  <level>INFO</level>
+  <class>TimeTable</class>
+  <method>runTest</method>
+  <thread>20</thread>
+  <message>Test with slots = 28, shifts = 23, iterations = 50 resulted in min clashes = 456 at step 19</message>
+</record>
+<record>
+  <date>2024-05-11T17:05:02.261167800Z</date>
+  <millis>1715447102261</millis>
+  <nanos>167800</nanos>
+  <sequence>17</sequence>
+  <logger>TimeTable</logger>
+  <level>INFO</level>
+  <class>TimeTable</class>
+  <method>runTest</method>
+  <thread>20</thread>
+  <message>Test with slots = 28, shifts = 23, iterations = 100 resulted in min clashes = 452 at step 97</message>
+</record>
+<record>
+  <date>2024-05-11T17:05:02.672071200Z</date>
+  <millis>1715447102672</millis>
+  <nanos>71200</nanos>
+  <sequence>18</sequence>
+  <logger>TimeTable</logger>
+  <level>INFO</level>
+  <class>TimeTable</class>
+  <method>runTest</method>
+  <thread>20</thread>
+  <message>Test with slots = 28, shifts = 24, iterations = 50 resulted in min clashes = 416 at step 38</message>
+</record>
+<record>
+  <date>2024-05-11T17:05:03.283563400Z</date>
+  <millis>1715447103283</millis>
+  <nanos>563400</nanos>
+  <sequence>19</sequence>
+  <logger>TimeTable</logger>
+  <level>INFO</level>
+  <class>TimeTable</class>
+  <method>runTest</method>
+  <thread>20</thread>
+  <message>Test with slots = 28, shifts = 24, iterations = 100 resulted in min clashes = 416 at step 38</message>
+</record>
+<record>
+  <date>2024-05-11T17:05:03.782712800Z</date>
+  <millis>1715447103782</millis>
+  <nanos>712800</nanos>
+  <sequence>20</sequence>
+  <logger>TimeTable</logger>
+  <level>INFO</level>
+  <class>TimeTable</class>
+  <method>runTest</method>
+  <thread>20</thread>
+  <message>Test with slots = 28, shifts = 25, iterations = 50 resulted in min clashes = 472 at step 29</message>
+</record>
+<record>
+  <date>2024-05-11T17:05:04.607507600Z</date>
+  <millis>1715447104607</millis>
+  <nanos>507600</nanos>
+  <sequence>21</sequence>
+  <logger>TimeTable</logger>
+  <level>INFO</level>
+  <class>TimeTable</class>
+  <method>runTest</method>
+  <thread>20</thread>
+  <message>Test with slots = 28, shifts = 25, iterations = 100 resulted in min clashes = 444 at step 64</message>
+</record>
+<record>
+  <date>2024-05-11T17:05:05.070603Z</date>
+  <millis>1715447105070</millis>
+  <nanos>603000</nanos>
+  <sequence>22</sequence>
+  <logger>TimeTable</logger>
+  <level>INFO</level>
+  <class>TimeTable</class>
+  <method>runTest</method>
+  <thread>20</thread>
+  <message>Test with slots = 28, shifts = 26, iterations = 50 resulted in min clashes = 282 at step 37</message>
+</record>
+<record>
+  <date>2024-05-11T17:05:05.787019800Z</date>
+  <millis>1715447105787</millis>
+  <nanos>19800</nanos>
+  <sequence>23</sequence>
+  <logger>TimeTable</logger>
+  <level>INFO</level>
+  <class>TimeTable</class>
+  <method>runTest</method>
+  <thread>20</thread>
+  <message>Test with slots = 28, shifts = 26, iterations = 100 resulted in min clashes = 238 at step 91</message>
+</record>
+<record>
+  <date>2024-05-11T17:05:06.303208200Z</date>
+  <millis>1715447106303</millis>
+  <nanos>208200</nanos>
+  <sequence>24</sequence>
+  <logger>TimeTable</logger>
+  <level>INFO</level>
+  <class>TimeTable</class>
+  <method>runTest</method>
+  <thread>20</thread>
+  <message>Test with slots = 28, shifts = 27, iterations = 50 resulted in min clashes = 434 at step 35</message>
+</record>
+<record>
+  <date>2024-05-11T17:05:07.152937500Z</date>
+  <millis>1715447107152</millis>
+  <nanos>937500</nanos>
+  <sequence>25</sequence>
+  <logger>TimeTable</logger>
+  <level>INFO</level>
+  <class>TimeTable</class>
+  <method>runTest</method>
+  <thread>20</thread>
+  <message>Test with slots = 28, shifts = 27, iterations = 100 resulted in min clashes = 394 at step 86</message>
+</record>
+<record>
+  <date>2024-05-11T17:05:07.571818Z</date>
+  <millis>1715447107571</millis>
+  <nanos>818000</nanos>
+  <sequence>26</sequence>
+  <logger>TimeTable</logger>
+  <level>INFO</level>
+  <class>TimeTable</class>
+  <method>runTest</method>
+  <thread>20</thread>
+  <message>Test with slots = 28, shifts = 28, iterations = 50 resulted in min clashes = 1,194 at step 1</message>
+</record>
+<record>
+  <date>2024-05-11T17:05:08.145821700Z</date>
+  <millis>1715447108145</millis>
+  <nanos>821700</nanos>
+  <sequence>27</sequence>
+  <logger>TimeTable</logger>
+  <level>INFO</level>
+  <class>TimeTable</class>
+  <method>runTest</method>
+  <thread>20</thread>
+  <message>Test with slots = 28, shifts = 28, iterations = 100 resulted in min clashes = 1,194 at step 1</message>
+</record>
