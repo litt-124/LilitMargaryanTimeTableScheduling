@@ -1,6 +1,8 @@
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
+import javax.xml.transform.Source;
+
 import java.util.logging.*;
 
 public class TimeTable extends JFrame implements ActionListener {
@@ -18,6 +20,7 @@ public class TimeTable extends JFrame implements ActionListener {
     private JButton tool[], testButton;
     private JTextField field[];
     private CourseArray courses;
+    private int[][] weights;
     private Color CRScolor[] = {Color.RED, Color.GREEN, Color.BLACK};
     
     public TimeTable() {
@@ -57,9 +60,11 @@ public class TimeTable extends JFrame implements ActionListener {
 	}
 	
 	private void runTest(int slots, int shifts, int iterations) {
-		courses = new CourseArray(Integer.parseInt(field[1].getText()) + 1, slots);
+		int numberOfCourses=Integer.parseInt(field[1].getText()) + 1;
+		courses = new CourseArray(numberOfCourses, slots);
 		courses.readClashes(field[2].getText()); 
-	
+		weights = new int[numberOfCourses][numberOfCourses];
+
 		int minClashes = Integer.MAX_VALUE;
 		int bestStep = 0;
 	
@@ -120,8 +125,11 @@ public class TimeTable extends JFrame implements ActionListener {
 		switch (getButtonIndex((JButton) click.getSource())) {
 		case 0:  // Load button
 			int slots = Integer.parseInt(field[0].getText());
-			courses = new CourseArray(Integer.parseInt(field[1].getText()) + 1, slots);
+			int numberOfCourses=Integer.parseInt(field[1].getText()) + 1;
+			courses = new CourseArray(numberOfCourses, slots);
 			courses.readClashes(field[2].getText());
+			weights = new int[numberOfCourses][numberOfCourses];
+
 			if (autoassociator == null) {
 				autoassociator = new Autoassociator(courses);
 			}
@@ -179,19 +187,39 @@ public class TimeTable extends JFrame implements ActionListener {
 		}
 	}
 	
-	private void continueScheduling() {
-        int[] simulatedClashes = new int[100];
-        for (int i = 0; i < simulatedClashes.length; i++) {
-            simulatedClashes[i] = (int) (Math.random() * 10); 
+	public void continueScheduling() {
+		for (int i = 1; i < courses.length(); i++) {
+			System.out.println(courses.slot(i));
+			if (courses.slot(i) == 0) {
+				int bestSlot = predictBestSlot();
+				System.out.println("Setting slot " + bestSlot + " for course index " + i);
+				if (bestSlot < 0 || bestSlot >= weights.length) {
+					System.err.println("Invalid slot: " + bestSlot);
+					continue; 
+				}
+				courses.setSlot(i, bestSlot); 
+			System.out.println(bestSlot);
+			}
+		}
+	}
+	
+	public int predictBestSlot() {
+        int[] clashTotals = new int[weights.length];
+        for (int i = 0; i < weights.length; i++) {
+            for (int j = 0; j < weights[i].length; j++) {
+                clashTotals[i] += weights[i][j];
+            }
         }
-        autoassociator.training(simulatedClashes);
-        int bestSlot = autoassociator.predictBestSlot();
 
-        for (int i = 0; i < courses.length(); i++) {
-            courses.setSlot(i, bestSlot);
+        int minIndex = 0;
+        for (int i = 1; i < clashTotals.length; i++) {
+            if (clashTotals[i] > clashTotals[minIndex]) {
+                minIndex = i;
+            }
         }
+
+        return minIndex;
     }
-
     
     private int getButtonIndex(JButton source) {
         int result = 0;
