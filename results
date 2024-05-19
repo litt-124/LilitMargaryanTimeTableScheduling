@@ -1,7 +1,1275 @@
-For the file ute-s-92, after running the test i got these results:
+file ute-s-92
+I have implemented a run Tests method, in which I have combined all 'logical' combinations of sets, so I don't need to test randomly each time.
+for this file this is the typical output you may have:
+May 19, 2024 5:46:19 PM TimeTable runTest
+INFO: Test with slots = 10, shifts = 1, iterations = 50 resulted in min clashes = 478 at step 22
+May 19, 2024 5:46:19 PM TimeTable runTest
+INFO: Test with slots = 10, shifts = 1, iterations = 500 resulted in min clashes = 478 at step 22
+May 19, 2024 5:46:19 PM TimeTable runTest
+INFO: Test with slots = 10, shifts = 2, iterations = 50 resulted in min clashes = 14 at step 17
+May 19, 2024 5:46:19 PM TimeTable runTest
+INFO: Test with slots = 10, shifts = 2, iterations = 500 resulted in min clashes = 14 at step 17
+May 19, 2024 5:46:19 PM TimeTable runTest
+INFO: Test with slots = 10, shifts = 3, iterations = 50 resulted in min clashes = 20 at step 15
+May 19, 2024 5:46:19 PM TimeTable runTest
+INFO: Test with slots = 10, shifts = 3, iterations = 500 resulted in min clashes = 2 at step 109
+May 19, 2024 5:46:19 PM TimeTable runTest
 INFO: Test with slots = 10, shifts = 4, iterations = 50 resulted in min clashes = 0 at step 27
-May 11, 2024 8:26:48 PM TimeTable runTest
-For the file utecar-f-92, after running the test i got these results:
-May 11, 2024 8:50:25 PM TimeTable actionPerformed
-INFO: Shift = 22, Min clashes = 236, at step 286
-May 11, 2024 8:50:25 PM TimeTable actionPerformed
+May 19, 2024 5:46:19 PM TimeTable runTest
+INFO: Test with slots = 10, shifts = 4, iterations = 500 resulted in min clashes = 0 at step 27
+May 19, 2024 5:46:19 PM TimeTable runTest
+INFO: Test with slots = 10, shifts = 5, iterations = 50 resulted in min clashes = 2 at step 4
+May 19, 2024 5:46:19 PM TimeTable runTest
+INFO: Test with slots = 10, shifts = 5, iterations = 500 resulted in min clashes = 2 at step 4
+May 19, 2024 5:46:19 PM TimeTable runTest
+INFO: Test with slots = 10, shifts = 6, iterations = 50 resulted in min clashes = 2 at step 7
+May 19, 2024 5:46:19 PM TimeTable runTest
+INFO: Test with slots = 10, shifts = 6, iterations = 500 resulted in min clashes = 2 at step 7
+May 19, 2024 5:46:19 PM TimeTable runTest
+INFO: Test with slots = 10, shifts = 7, iterations = 50 resulted in min clashes = 0 at step 5
+May 19, 2024 5:46:19 PM TimeTable runTest
+INFO: Test with slots = 10, shifts = 7, iterations = 500 resulted in min clashes = 0 at step 5
+May 19, 2024 5:46:19 PM TimeTable runTest
+INFO: Test with slots = 10, shifts = 8, iterations = 50 resulted in min clashes = 0 at step 5
+May 19, 2024 5:46:20 PM TimeTable runTest
+INFO: Test with slots = 10, shifts = 8, iterations = 500 resulted in min clashes = 0 at step 5
+May 19, 2024 5:46:20 PM TimeTable runTest
+INFO: Test with slots = 10, shifts = 9, iterations = 50 resulted in min clashes = 0 at step 3
+May 19, 2024 5:46:20 PM TimeTable runTest
+INFO: Test with slots = 10, shifts = 9, iterations = 500 resulted in min clashes = 0 at step 3
+May 19, 2024 5:46:20 PM TimeTable runTest
+INFO: Test with slots = 10, shifts = 10, iterations = 50 resulted in min clashes = 2 at step 1
+May 19, 2024 5:46:20 PM TimeTable runTest
+INFO: Test with slots = 10, shifts = 10, iterations = 500 resulted in min clashes = 2 at step 1
+May 19, 2024 5:46:20 PM TimeTable runTest
+INFO: Test with slots = 11, shifts = 1, iterations = 50 resulted in min clashes = 434 at step 22
+May 19, 2024 5:46:20 PM TimeTable runTest
+INFO: Test with slots = 11, shifts = 1, iterations = 500 resulted in min clashes = 434 at step 22
+May 19, 2024 5:46:20 PM TimeTable runTest
+INFO: Test with slots = 11, shifts = 2, iterations = 50 resulted in min clashes = 12 at step 14
+May 19, 2024 5:46:20 PM TimeTable runTest
+INFO: Test with slots = 11, shifts = 2, iterations = 500 resulted in min clashes = 12 at step 14
+May 19, 2024 5:46:20 PM TimeTable runTest
+INFO: Test with slots = 11, shifts = 3, iterations = 50 resulted in min clashes = 0 at step 6
+May 19, 2024 5:46:20 PM TimeTable runTest
+INFO: Test with slots = 11, shifts = 3, iterations = 500 resulted in min clashes = 0 at step 6
+May 19, 2024 5:46:20 PM TimeTable runTest
+INFO: Test with slots = 11, shifts = 4, iterations = 50 resulted in min clashes = 0 at step 6
+May 19, 2024 5:46:20 PM TimeTable runTest
+INFO: Test with slots = 11, shifts = 4, iterations = 500 resulted in min clashes = 0 at step 6
+May 19, 2024 5:46:20 PM TimeTable runTest
+INFO: Test with slots = 11, shifts = 5, iterations = 50 resulted in min clashes = 0 at step 4
+May 19, 2024 5:46:20 PM TimeTable runTest
+INFO: Test with slots = 11, shifts = 5, iterations = 500 resulted in min clashes = 0 at step 4
+May 19, 2024 5:46:20 PM TimeTable runTest
+INFO: Test with slots = 11, shifts = 6, iterations = 50 resulted in min clashes = 0 at step 3
+May 19, 2024 5:46:20 PM TimeTable runTest
+INFO: Test with slots = 11, shifts = 6, iterations = 500 resulted in min clashes = 0 at step 3
+May 19, 2024 5:46:20 PM TimeTable runTest
+INFO: Test with slots = 11, shifts = 7, iterations = 50 resulted in min clashes = 0 at step 2
+May 19, 2024 5:46:20 PM TimeTable runTest
+INFO: Test with slots = 11, shifts = 7, iterations = 500 resulted in min clashes = 0 at step 2
+May 19, 2024 5:46:20 PM TimeTable runTest
+INFO: Test with slots = 11, shifts = 8, iterations = 50 resulted in min clashes = 0 at step 2
+May 19, 2024 5:46:20 PM TimeTable runTest
+INFO: Test with slots = 11, shifts = 8, iterations = 500 resulted in min clashes = 0 at step 2
+May 19, 2024 5:46:20 PM TimeTable runTest
+INFO: Test with slots = 11, shifts = 9, iterations = 50 resulted in min clashes = 0 at step 2
+May 19, 2024 5:46:20 PM TimeTable runTest
+INFO: Test with slots = 11, shifts = 9, iterations = 500 resulted in min clashes = 0 at step 2
+May 19, 2024 5:46:20 PM TimeTable runTest
+INFO: Test with slots = 11, shifts = 10, iterations = 50 resulted in min clashes = 0 at step 2
+May 19, 2024 5:46:20 PM TimeTable runTest
+INFO: Test with slots = 11, shifts = 10, iterations = 500 resulted in min clashes = 0 at step 2
+
+As we can see, for 11 slots, we have 0 clashes at step 2, and for slots 10 min clashes at step 27, hence I don't need to implemente
+a training algorithm for this as we already have the minimum just using this.(however the tests are still appliable vor this one too) 
+
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+file car-f-92
+For this files things work a bitt differently. again performing the runTest on this one I got 
+May 19, 2024 5:51:27 PM TimeTable runTest
+INFO: Test with slots = 28, shifts = 15, iterations = 1,000 resulted in min clashes = 386 at step 308
+May 19, 2024 5:51:31 PM TimeTable runTest
+INFO: Test with slots = 28, shifts = 16, iterations = 1,000 resulted in min clashes = 450 at step 61
+May 19, 2024 5:51:36 PM TimeTable runTest
+INFO: Test with slots = 28, shifts = 17, iterations = 1,000 resulted in min clashes = 364 at step 865
+May 19, 2024 5:51:40 PM TimeTable runTest
+INFO: Test with slots = 28, shifts = 18, iterations = 1,000 resulted in min clashes = 276 at step 371
+May 19, 2024 5:51:45 PM TimeTable runTest
+INFO: Test with slots = 28, shifts = 19, iterations = 1,000 resulted in min clashes = 376 at step 821
+May 19, 2024 5:51:49 PM TimeTable runTest
+INFO: Test with slots = 28, shifts = 20, iterations = 1,000 resulted in min clashes = 382 at step 29
+May 19, 2024 5:51:52 PM TimeTable runTest
+INFO: Test with slots = 28, shifts = 21, iterations = 1,000 resulted in min clashes = 534 at step 66
+May 19, 2024 5:51:56 PM TimeTable runTest
+INFO: Test with slots = 28, shifts = 22, iterations = 1,000 resulted in min clashes = 230 at step 394
+May 19, 2024 5:52:02 PM TimeTable runTest
+INFO: Test with slots = 28, shifts = 23, iterations = 1,000 resulted in min clashes = 342 at step 341
+May 19, 2024 5:52:06 PM TimeTable runTest
+INFO: Test with slots = 28, shifts = 24, iterations = 1,000 resulted in min clashes = 416 at step 38
+May 19, 2024 5:52:11 PM TimeTable runTest
+INFO: Test with slots = 28, shifts = 25, iterations = 1,000 resulted in min clashes = 310 at step 846
+May 19, 2024 5:52:16 PM TimeTable runTest
+INFO: Test with slots = 28, shifts = 26, iterations = 1,000 resulted in min clashes = 222 at step 375
+May 19, 2024 5:52:22 PM TimeTable runTest
+INFO: Test with slots = 28, shifts = 27, iterations = 1,000 resulted in min clashes = 298 at step 713
+May 19, 2024 5:52:25 PM TimeTable runTest
+INFO: Test with slots = 28, shifts = 28, iterations = 1,000 resulted in min clashes = 1,194 at step 1
+May 19, 2024 5:52:30 PM TimeTable runTest
+INFO: Test with slots = 29, shifts = 15, iterations = 1,000 resulted in min clashes = 310 at step 425
+May 19, 2024 5:52:35 PM TimeTable runTest
+INFO: Test with slots = 29, shifts = 16, iterations = 1,000 resulted in min clashes = 354 at step 665
+May 19, 2024 5:52:40 PM TimeTable runTest
+INFO: Test with slots = 29, shifts = 17, iterations = 1,000 resulted in min clashes = 348 at step 914
+May 19, 2024 5:52:44 PM TimeTable runTest
+INFO: Test with slots = 29, shifts = 18, iterations = 1,000 resulted in min clashes = 318 at step 629
+May 19, 2024 5:52:50 PM TimeTable runTest
+INFO: Test with slots = 29, shifts = 19, iterations = 1,000 resulted in min clashes = 320 at step 734
+May 19, 2024 5:52:55 PM TimeTable runTest
+INFO: Test with slots = 29, shifts = 20, iterations = 1,000 resulted in min clashes = 288 at step 931
+May 19, 2024 5:53:00 PM TimeTable runTest
+INFO: Test with slots = 29, shifts = 21, iterations = 1,000 resulted in min clashes = 304 at step 522
+May 19, 2024 5:53:06 PM TimeTable runTest
+INFO: Test with slots = 29, shifts = 22, iterations = 1,000 resulted in min clashes = 294 at step 665
+May 19, 2024 5:53:11 PM TimeTable runTest
+INFO: Test with slots = 29, shifts = 23, iterations = 1,000 resulted in min clashes = 266 at step 466
+May 19, 2024 5:53:17 PM TimeTable runTest
+INFO: Test with slots = 29, shifts = 24, iterations = 1,000 resulted in min clashes = 294 at step 772
+May 19, 2024 5:53:23 PM TimeTable runTest
+INFO: Test with slots = 29, shifts = 25, iterations = 1,000 resulted in min clashes = 274 at step 651
+May 19, 2024 5:53:28 PM TimeTable runTest
+INFO: Test with slots = 29, shifts = 26, iterations = 1,000 resulted in min clashes = 272 at step 975
+May 19, 2024 5:53:34 PM TimeTable runTest
+INFO: Test with slots = 29, shifts = 27, iterations = 1,000 resulted in min clashes = 278 at step 315
+May 19, 2024 5:53:39 PM TimeTable runTest
+INFO: Test with slots = 29, shifts = 28, iterations = 1,000 resulted in min clashes = 272 at step 583
+
+
+The best result was 
+INFO: Test with slots = 28, shifts = 26, iterations = 1,000 resulted in min clashes = 222 at step 375
+
+Then I proceeded with trying to minimize the number of clashes. 
+this is how i implemented it 
+1. Keep track of the combinations of course slots and shifts that have been used.
+2. Train the network on the existing clash data.
+3. Predict and set better slots for the courses to minimize clashes.
+4. Continues training on the expanded data, optimizing the timetable further with each click.
+For training I used  the Hopfield Network to set it in the corresponding timeslot. 
+And the best output would have been to iterate again over the courses on each Continue button click to further reduce clashes by shifting them within the period defined.
+
+So after running the start over the best combination found, I got 
+Setting slot 422 for course index 45
+Setting slot 422 for course index 49
+Setting slot 422 for course index 93
+Setting slot 422 for course index 235
+Setting slot 422 for course index 254
+Setting slot 422 for course index 296
+Setting slot 422 for course index 328
+Setting slot 422 for course index 341
+Setting slot 422 for course index 427
+Setting slot 422 for course index 450
+Setting slot 422 for course index 496
+Setting slot 422 for course index 497
+Setting slot 422 for course index 518
+Setting slot 422 for course index 519
+Setting slot 422 for course index 526
+May 19, 2024 6:03:55 PM TimeTable continueScheduling
+INFO: No reduction in clashes. Current clashes: 470
+
+Continue 
+Setting slot 382 for course index 8
+Setting slot 382 for course index 20
+Setting slot 382 for course index 31
+Setting slot 382 for course index 44
+Setting slot 382 for course index 45
+Setting slot 382 for course index 77
+Setting slot 382 for course index 108
+Setting slot 382 for course index 116
+Setting slot 382 for course index 120
+Setting slot 382 for course index 182
+Setting slot 382 for course index 336
+Setting slot 382 for course index 392
+Setting slot 382 for course index 403
+Setting slot 382 for course index 414
+Setting slot 382 for course index 448
+Setting slot 382 for course index 474
+Setting slot 382 for course index 501
+Setting slot 382 for course index 514
+Setting slot 382 for course index 533
+
+May 19, 2024 6:05:56 PM TimeTable continueScheduling
+INFO: Clashes reduced from 470 to 400
+
+ANd so on and the best result i got was 
+Setting slot 422 for course index 57
+Setting slot 422 for course index 84
+Setting slot 422 for course index 101
+Setting slot 422 for course index 191
+Setting slot 422 for course index 275
+Setting slot 422 for course index 367
+Setting slot 422 for course index 386
+Setting slot 422 for course index 441
+Setting slot 422 for course index 483
+Setting slot 456 for course index 522
+Setting slot 456 for course index 538
+May 19, 2024 6:07:36 PM TimeTable continueScheduling
+INFO: Clashes reduced from 232 to 218
+
+Then I thought maybe the algorithm I used was incorrect so I searched and found several more, but the results were worse :
+Simulated Anealing(continueSchedulingOld) gave this after 20 minutes of running 
+Setting slot 291 for course index 44
+Setting slot 291 for course index 113
+Setting slot 291 for course index 160
+Setting slot 291 for course index 233
+Setting slot 291 for course index 234
+Setting slot 291 for course index 280
+Setting slot 291 for course index 294
+Setting slot 291 for course index 308
+Setting slot 291 for course index 338
+Setting slot 291 for course index 362
+Setting slot 291 for course index 408
+Setting slot 291 for course index 425
+Setting slot 291 for course index 433
+Setting slot 291 for course index 495
+Setting slot 291 for course index 515
+May 19, 2024 6:18:50 PM TimeTable continueScheduling
+INFO: No reduction in clashes. Current clashes: 1,122
+
+Then I decided to ask how my friends did their tasks, ( here I used the algorithm Taron Schisas suggested, but modified it to meet my standarts, as my files were too big)
+I will upload the zipped folder, where i do the algorithm(as the files were too big to read, i implemented the json reader for them, but i 
+will state the logic here)
+
+I used the best results here, trained them. as the number of clashes were big, i used fullChainUpdate, but still got almost same results
+training slots: 1,3,5,7,9,11,13,15,17,19,21,23,25 - 13
+Shift = 22 Min clashes = 230 at step 394
+
+training slots:  1,3,5,7,9,11,13,15,17,19,21,23,25 - 13
+Shift = 26 Min clashes = 238 at step 91
+
+training slots:  1,3,5,7,9,11,13,15,17,19,21,23,27 - 13
+Shift = 18 Min clashes = 298 at step 88
+
+Moved course 74 to slot 26
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 80 to slot 26
+Moved course 81 to slot 26
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 89 to slot 26
+network says force in index should stay the same
+Moved course 91 to slot 26
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Randomly moved course 97 to slot 4
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 101 to slot 26
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 107 to slot 26
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 127 to slot 26
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 143 to slot 26
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 147 to slot 26
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 157 to slot 26
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 162 to slot 26
+Moved course 163 to slot 26
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 169 to slot 26
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 175 to slot 26
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 180 to slot 26
+Moved course 181 to slot 26
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 202 to slot 26
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 224 to slot 26
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 232 to slot 26
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 243 to slot 26
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 250 to slot 26
+network says force in index should stay the same
+Moved course 252 to slot 26
+Moved course 253 to slot 26
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 266 to slot 26
+Randomly moved course 267 to slot 10
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 282 to slot 26
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 309 to slot 26
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Randomly moved course 322 to slot 17
+Moved course 323 to slot 26
+network says force in index should stay the same
+Moved course 325 to slot 26
+network says force in index should stay the same
+Moved course 327 to slot 26
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 336 to slot 26
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Randomly moved course 364 to slot 15
+Randomly moved course 365 to slot 16
+network says force in index should stay the same
+Moved course 367 to slot 26
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 393 to slot 26
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 398 to slot 26
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 407 to slot 26
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 410 to slot 26
+network says force in index should stay the same
+Moved course 412 to slot 26
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 431 to slot 26
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 443 to slot 26
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 447 to slot 26
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 461 to slot 26
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 469 to slot 26
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 475 to slot 26
+Moved course 476 to slot 26
+Moved course 477 to slot 26
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 485 to slot 26
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 493 to slot 26
+network says force in index should stay the same
+Moved course 495 to slot 26
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Randomly moved course 503 to slot 2
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 513 to slot 26
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Randomly moved course 524 to slot 6
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 531 to slot 26
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 1 to slot 27
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 17 to slot 27
+Randomly moved course 18 to slot 11
+Moved course 19 to slot 27
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 25 to slot 27
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 36 to slot 27
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 40 to slot 27
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 51 to slot 27
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 63 to slot 27
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 69 to slot 27
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 72 to slot 27
+network says force in index should stay the same
+Moved course 74 to slot 27
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 80 to slot 27
+Moved course 81 to slot 27
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 89 to slot 27
+network says force in index should stay the same
+Moved course 91 to slot 27
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 101 to slot 27
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 107 to slot 27
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 127 to slot 27
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 143 to slot 27
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 147 to slot 27
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 157 to slot 27
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 162 to slot 27
+Moved course 163 to slot 27
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 169 to slot 27
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 175 to slot 27
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 180 to slot 27
+Moved course 181 to slot 27
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 202 to slot 27
+network says force in index should stay the same
+Randomly moved course 204 to slot 9
+Randomly moved course 205 to slot 17
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Randomly moved course 216 to slot 11
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 224 to slot 27
+network says force in index should stay the same
+Randomly moved course 226 to slot 5
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 232 to slot 27
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 243 to slot 27
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 250 to slot 27
+network says force in index should stay the same
+Moved course 252 to slot 27
+Moved course 253 to slot 27
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 266 to slot 27
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 282 to slot 27
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 309 to slot 27
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 323 to slot 27
+network says force in index should stay the same
+Moved course 325 to slot 27
+network says force in index should stay the same
+Moved course 327 to slot 27
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 336 to slot 27
+Randomly moved course 337 to slot 15
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Randomly moved course 349 to slot 17
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 367 to slot 27
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 393 to slot 27
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 398 to slot 27
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 407 to slot 27
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 410 to slot 27
+network says force in index should stay the same
+Moved course 412 to slot 27
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 431 to slot 27
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Randomly moved course 440 to slot 3
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 443 to slot 27
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 447 to slot 27
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 461 to slot 27
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 469 to slot 27
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 475 to slot 27
+Moved course 476 to slot 27
+Moved course 477 to slot 27
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 485 to slot 27
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 493 to slot 27
+network says force in index should stay the same
+Moved course 495 to slot 27
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 513 to slot 27
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Moved course 531 to slot 27
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+Randomly moved course 538 to slot 17
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+network says force in index should stay the same
+
+And these are the results I got after :
+Shift = 26      Min clashes = 322       at step 382
+
+So the best results after 3 different algorithms was the first one
+INFO: Test with slots = 28, shifts = 26, iterations = 1,000 resulted in min clashes = 222 at step 375 + training and 218 clashes.  
+

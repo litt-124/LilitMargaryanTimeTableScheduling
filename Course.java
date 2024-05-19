@@ -48,4 +48,5 @@ public class Course {
 			mySlot = 0;
 		}
 	}
+	
 }

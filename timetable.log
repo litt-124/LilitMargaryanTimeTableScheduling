@@ -337,3 +337,42 @@
   <thread>20</thread>
   <message>Test with slots = 28, shifts = 28, iterations = 100 resulted in min clashes = 1,194 at step 1</message>
 </record>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-05-19T13:27:09.267211700Z</date>
+  <millis>1716125229267</millis>
+  <nanos>211700</nanos>
+  <sequence>0</sequence>
+  <logger>TimeTable</logger>
+  <level>INFO</level>
+  <class>TimeTable</class>
+  <method>continueScheduling</method>
+  <thread>20</thread>
+  <message>No reduction in clashes. Current clashes: 716</message>
+</record>
+<record>
+  <date>2024-05-19T13:27:30.282104Z</date>
+  <millis>1716125250282</millis>
+  <nanos>104000</nanos>
+  <sequence>1</sequence>
+  <logger>TimeTable</logger>
+  <level>INFO</level>
+  <class>TimeTable</class>
+  <method>continueScheduling</method>
+  <thread>20</thread>
+  <message>Clashes reduced from 722 to 710</message>
+</record>
+<record>
+  <date>2024-05-19T13:27:58.705028700Z</date>
+  <millis>1716125278705</millis>
+  <nanos>28700</nanos>
+  <sequence>2</sequence>
+  <logger>TimeTable</logger>
+  <level>INFO</level>
+  <class>TimeTable</class>
+  <method>continueScheduling</method>
+  <thread>20</thread>
+  <message>No reduction in clashes. Current clashes: 744</message>
+</record>
